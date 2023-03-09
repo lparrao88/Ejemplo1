@@ -1,0 +1,52 @@
+/*Clase 04 */
+
+/*Etiqueta*/
+h1 {}
+
+/*clase*/
+.clase {}
+
+/*Id*/
+#id {}
+
+/*Tipografia*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Box modeling*/
+/*Caja*/
+
+div {
+    background-color: black;
+    width: 400px;
+    height: 400px;
+}
+
+
+/*Fixed*/
+div {
+    position: fixed;
+    top: 0;
+}
+
+
+/* Sticky*/
+div {
+    position: sticky;
+    top: 20px;
+}
+
+/*------------------------------------------------------------------*/
+
+/*Clase 05*/
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    /*predeterminado*/
+    flex-wrap: nowrap;
+    /*para salto de linea d elos elementos*/
+    flex-wrap: row nowrap;
+    /*metodo abreviado*/
+}
